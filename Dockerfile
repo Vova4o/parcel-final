@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . .
 
+#Trying to see if changes will go through
+
 RUN go mod download
 
 COPY *.go ./
